@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+
+
+*{
+	margin:0px;
+	padding:0px;
+    box-sizing:border-box;
+	text-decoration:none;
+}
+body{
+	font-family:montserrat;
+}
+.head{
+	width:100%;
+	height:1170px;
+}
+.heading{
+     width:100%;
+	 height:80px;
+	 background:#DCDADA;
+}
+.heading1{
+	width:50%;
+	height:100%;
+	float:left;
+}
+.heading2{
+	width:50%;
+	height:100%;
+	float:right;
+}
+.heading1 img{
+	width:200px;
+	height:78px;
+	float:left;
+}
+.heading1 i{
+	line-height:80px;
+	position:absolute;
+	left:210px;
+	font-size:15px;
+	color:#FBD077;
+	
+	
+}
+span {
+	line-height:80px;
+	position:absolute;
+	left:190px;
+	font-size:15px;
+	
+}
+.heading2 i{
+	float:right;
+	line-height:60px;
+	margin-right:16px;
+	padding:10px;
+	color:#FBD077;
+	font-size:25px;
+	
+}
+.heading2 p{
+	position:relative;
+	left:12px;
+	top:4px;
+	color:rgba(129,0,0,0.6);
+	font-size:15px;
+}
+.navigation{
+	width:100%;
+	height:60px;
+	background:#E9EBEC;
+	
+}
+.navigation ul {
+	display:flex;
+	float:right;
+	padding:6px;
+	margin-right:12px;
+	
+	
+}
+.navigation ul a{
+	color:salmon;
+	padding:12px;
+	text-transform:uppercase;
+}
+.navigation img{
+	position:absolute;
+	left:250px;
+	
+}
+.navigation b{
+	line-height:60px;
+	margin:7px;
+	font-size:20px;
+}
+
+/* this is section */
+.slide{
+	width:100%;
+	height:420px;
+	overflow:hidden;
+}
+.naviga{
+	position:absolute;
+	top:550px;
+	left:40%;
+	transform:translateY(-50%);
+	display:flex;
+}
+.bar{
+	width:50px;
+	height:12px;
+	border:2px solid green;
+	margin:3px;
+	border-radius:5px;
+	cursor:pointer;
+}
+input[name="r"]{
+	position:absolute;
+	visibility:hidden;
+}
+
+.slider{
+	width:500%;
+	height:100%;
+	display:flex;
+}
+.slides{
+	width:20%;
+	transition:0.6s;
+}
+.slides img{
+	width:100%;
+	height:100%;
+}
+#r1:checked~.s1{margin-left:-0%;}
+#r2:checked~.s1{margin-left:-20%;}
+#r3:checked~.s1{margin-left:-40%;}
+#r4:checked~.s1{margin-left:-60%;}
+#r5:checked~.s1{margin-left:-80%;}
+
+/* this is login  */
+.login{
+	width:50%;
+	height:500px;
+	float:left;
+
+}
+.log{
+	width:50%;
+	height:300px;
+	background:black;
+	margin:0 auto;
+	margin-top:100px;
+}
+.log p{
+	color:white;
+	font-size:30px;
+	text-align:center;
+	margin-top:20px;
+}
+.log input[placeholder="username"]{
+	margin-left:55px;
+	margin-top:25px;
+	
+}
+.log input[placeholder="username"]{
+	font-size:15px;
+	color:red;
+	border-radius:7px;
+	height:32px;
+	
+}
+.log input[placeholder="password"]{
+	margin-left:55px;
+	margin-top:25px;
+	
+}
+.log input[placeholder="password"]{
+	font-size:15px;
+	color:red;
+	border-radius:7px;
+	height:32px;
+	
+}
+.log input:hover{
+	width:230px;
+	transform:transition .7s linear;
+	border:1px solid green;
+	color:salmon;
+}
+.log input[type="submit"]{
+	font-size:15px;
+	color:red;
+	border-radius:7px;
+	height:32px;
+	margin-left:95px;
+	margin-top:25px;
+	
+}
+.log input[type="submit"]{
+      width:100px;
+}
+
+/*  this is another diviton */
+
+.divition{
+	width:50%;
+	height:500px;
+	float:right;
+}
+.divition img{
+	width:100px;
+	height:100px;
+	margin-left:35%;
+	margin-top:12px;
+	border-radius:50%;
+}
+.divition b{
+	display:block;
+	text-align:center;
+	
+}
+.divition p{
+	font-size:20px;
+	text-align:justify;
+	margin-top:5px;
+}
+.shibu{
+	width:100%;
+	height:110px;
+	margin-top:500px;
+	background:#333D47;
+}
+
+
